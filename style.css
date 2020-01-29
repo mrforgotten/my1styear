@@ -1,0 +1,34 @@
+.bottom-left {
+    padding-left: 1em;
+    padding-bottom: 1em;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.img-profile {
+    border-radius: 50%;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0px !important;
+}
+
+.add-padding {
+    padding: 1em 2rem !important;
+}
+
+.h2-text {
+    text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+    .h2-text {
+        text-align: center;
+    }
+}
